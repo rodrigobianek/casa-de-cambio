@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "vite": "^4.3.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0"
   }
 }
