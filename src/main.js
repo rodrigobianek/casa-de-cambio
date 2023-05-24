@@ -2,7 +2,7 @@ import Swal from "sweetalert2";
 import "./style.css";
 
 const button = document.querySelector("button");
-const coinTitle = document.createElement("h2");
+const coinTitle = document.querySelector("h2");
 const mainContent = document.querySelector("#main-content");
 
 function createDiv(key, value) {
@@ -50,9 +50,7 @@ button.addEventListener("click", () => {
               text: "Moeda não existente!",
             })
         } else {
-          mainContent.appendChild(
-            coinTitle
-          ).innerHTML = `Valores referentes a 1 ${coin}`;
+            coinTitle.innerHTML = `Valores referentes a 1 ${coin}`;
           ratesInfo.forEach((el) => createDiv(el[0], el[1]));
         }
       })

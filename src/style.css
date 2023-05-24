@@ -58,6 +58,11 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
 #main-container {
     font-size: 12px;
     display: flex;
